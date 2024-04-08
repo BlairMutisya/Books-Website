@@ -38,3 +38,11 @@ async function searchBooks() {
     console.error('Error fetching and parsing data:', error);
   }
 }
+
+// Event listener for hitting enter key to search
+searchInput.addEventListener('keypress', function(event) {
+  if (event.key === 'Enter') {
+    searchBooks();
+  }
+});
+
