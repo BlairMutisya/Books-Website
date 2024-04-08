@@ -1,0 +1,45 @@
+{
+    "shoes": [
+      {
+        "id": 1,
+        "brand": "Air Jordan",
+        "model": "Phantom Black",
+        "colorway": "Black",
+        "price": 120,
+        "image_url": "https://kickskenya.com/cdn/shop/products/TravisBlack2.jpg?v=1671186742"
+      },
+      {
+        "id": 2,
+        "brand": "Airjordan",
+        "model": "SB Dunks",
+        "colorway": "Multicolour",
+        "price": 100,
+        "image_url": "https://kickskenya.com/cdn/shop/products/ParraDunk-981354.jpg?v=1689731874"
+      },
+      {
+        "id": 3,
+        "brand": "Jordan",
+        "model": "Air Jordan 1 Travis Scott",
+        "colorway": "Dark Mocha",
+        "price": 150,
+        "image_url": "https://kickskenya.com/cdn/shop/products/TravisJ1Low3-705638.jpg?v=1680083644"
+      },
+      {
+        "id": 4,
+        "brand": "Converse",
+        "model": "Chuck Taylor Kith",
+        "colorway": "Black/White",
+        "price": 60,
+        "image_url": "https://kickskenya.com/cdn/shop/products/Kith2-673350.jpg?v=1696032933"
+      },
+      {
+        "id": 5,
+        "brand": "Air Jordan",
+        "model": "3",
+        "colorway": "Black/White/Grey",
+        "price": 120,
+        "image_url": "https://kickskenya.com/cdn/shop/products/Jordan1CoolGrey1.jpg?v=1638023191"
+      }
+    ]
+  }
+  
