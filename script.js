@@ -46,3 +46,7 @@ searchInput.addEventListener('keypress', function(event) {
   }
 });
 
+// Event listener for resetting search field
+document.getElementById('resetButton').addEventListener('click', function() {
+  searchInput.value = '';
+});
