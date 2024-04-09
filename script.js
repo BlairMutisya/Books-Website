@@ -15,7 +15,6 @@ searchInput.addEventListener('keypress', function(event) {
 async function searchBooks() {
   resultsDiv.innerHTML = ''; // Clear previous results
   loadingDiv.classList.remove('hidden'); // Show loading icon
-
   const query = searchInput.value.trim();
   if (query === '') {
     loadingDiv.classList.add('hidden'); // Hide loading icon if no query

@@ -3,16 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Libro Link</title>
-  <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+  <title>Book Search</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>Libro Link</h1>
-    <input type="text" id="searchInput" placeholder="Enter search term">
-    <button id="searchButton">Search</button>
-    <button id="resetButton">Reset</button>
+  <header class="navbar">
+    <div class="icon-container">
+      <img src="./Assets/icons8-library-50.png" alt="Library Icon" class="library-icon">
+    </div>
+    <h1>Book Search</h1>
+    <div class="container-input">
+      <input type="text" id="searchInput" placeholder="Enter search term">
+      <button id="searchButton">Search</button>
+      <button id="resetButton">Reset</button>
+    </div>
   </header>
 
   <div id="loading" class="hidden">
@@ -20,16 +24,6 @@
   </div>
 
   <div id="results"></div>
-
-  <footer>
-    <div class="quote">
-      <h3>Motivational Quote:</h3>
-      <p>"Reading is to the mind what exercise is to the body." - Joseph Addison</p>
-    </div>
-    <div class="icon">
-      <img src="./Assets/library-icon.png" alt="Library Icon">
-    </div>
-  </footer>
 
   <script src="script.js"></script>
 </body>

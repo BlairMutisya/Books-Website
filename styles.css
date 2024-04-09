@@ -3,17 +3,37 @@ body {
   margin: 0;
   padding: 0;
   background: linear-gradient(rgba,rgba(0, 0, 0, 0.3));
-  background: linear-gradient(orange, black);
 }
 
-header {
- 
+.navbar {
+  background: linear-gradient(rgba(7, 247, 187, 0.3) ,rgba(6, 6, 6, 0.518));
   padding: 70px;
   text-align: center;
+  position: relative; /* Ensure positioning of the library icon */
+  display: flex;
+  align-items: center;
 }
 
 h1 {
   margin: 0;
+  text-align: center;
+  position: relative;
+}
+
+.icon-container {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.library-icon {
+  width: 40px;
+  height: auto;
+}
+
+.container-input {
+  display: inline-block;
 }
 
 #searchInput {
@@ -30,17 +50,11 @@ h1 {
   border: none;
   cursor: pointer;
   border-radius: 20px;
-  transition: transform 0.3s ease;
+  margin-left: 10px;
 }
 
 #resetButton {
   background-color: #f44336;
-  margin-left: 15px;
-}
-
-#searchButton:hover,
-#resetButton:hover {
-  transform: scale(0.9);
 }
 
 #loading {
@@ -58,17 +72,23 @@ h1 {
 
 .book {
   border: 1px solid #ccc;
-  margin: 10px;
+  margin-bottom: 15px;
   padding: 10px;
   background-color: #fff;
+  transition: background-color 0.5s ease;
   border-radius: 5px;
-  transition: filter 0.5s ease;
 }
 
 .book:hover {
-  filter: blur(0px); /* Reset blur effect */
+  background-color: #7872726b;
+  animation: bookAnimation 0.5s ease infinite alternate;
 }
 
-.book:not(:hover) {
-  filter: blur(3px); /* Apply blur effect to non-hovered books */
+@keyframes bookAnimation {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(5px);
+  }
 }
