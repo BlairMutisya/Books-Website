@@ -87,7 +87,7 @@ h1 {
 }
 
 .book:hover {
-  background-color: #7872726b;
+  background-color: #605b5b81;
   animation: bookAnimation 0.5s ease infinite alternate;
 }
 
