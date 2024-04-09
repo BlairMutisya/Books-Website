@@ -12,12 +12,12 @@ body {
   position: relative; /* Ensure positioning of the library icon */
   display: flex;
   align-items: center;
+  flex-direction: column; /* Set flex direction to column */
 }
 
 h1 {
-  margin: 0;
+  margin: 10px 0; /* Add margin to create space between the icon and h1 */
   text-align: center;
-  position: relative;
 }
 
 .icon-container {
@@ -39,6 +39,7 @@ h1 {
 #searchInput {
   padding: 10px;
   font-size: 16px;
+  border-radius: 50px;
 }
 
 #searchButton,
