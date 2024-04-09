@@ -2,12 +2,12 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: linear-gradient(rgba,rgba(0, 0, 0, 0.3));
+  background: linear-gradient(rgba, rgba(0, 0, 0, 0.3));
 }
 
 .navbar {
-  background: linear-gradient(rgba(7, 247, 187, 0.3) ,rgba(6, 6, 6, 0.518));
-  padding: 70px;
+  background: linear-gradient(rgba(254, 140, 0, 0.623), rgba(6, 6, 6, 0.518));
+  padding: 100px;
   text-align: center;
   position: relative; /* Ensure positioning of the library icon */
   display: flex;
@@ -52,10 +52,16 @@ h1 {
   cursor: pointer;
   border-radius: 20px;
   margin-left: 10px;
+  transition: transform 0.3s ease-out; /* Add transition */
 }
 
 #resetButton {
   background-color: #f44336;
+}
+
+#searchButton:hover,
+#resetButton:hover {
+  transform: scale(0.9); /* Apply transform on hover */
 }
 
 #loading {
