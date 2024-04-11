@@ -1,6 +1,7 @@
 # LIBRO LINK LIBRARY BOOK SEARCH
 
-![Screenshot 2024-04-11 155956](https://github.com/BlairMutisya/Books-Website/assets/122833274/d34480a2-48f1-4579-9a0d-cb52a6e019d6)
+![Screenshot 2024-04-11 155956](https://github.com/BlairMutisya/Books-Website/assets/122833274/c232bc52-5c76-4fde-92ca-95938b54502a)
+
 
 ## INTRODUCTION
 LibroLink is a comprehensive open library website designed to revolutionize the way individuals access, explore, and engage with a vast array of literary resources. With a focus on promoting literacy, knowledge sharing, and community interaction, LibroLink aims to serve as a hub for book lovers, students, educators, and researchers alike. By harnessing the power of technology and collaboration, LibroLink seeks to democratize access to information and foster a love for reading and lifelong learning.
