@@ -6,7 +6,7 @@ body {
 }
 
 .navbar {
-  background: linear-gradient(rgba(254, 140, 0, 0.623), rgba(6, 6, 6, 0.518));
+  background: linear-gradient(rgba(253, 118, 0, 0.993), rgb(0, 0, 0));
   padding: 100px;
   text-align: center;
   position: relative; /* Ensure positioning of the library icon */
