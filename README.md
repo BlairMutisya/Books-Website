@@ -2,7 +2,6 @@
 
 ![Screenshot 2024-04-11 155956](https://github.com/BlairMutisya/Books-Website/assets/122833274/c232bc52-5c76-4fde-92ca-95938b54502a)
 
-
 ## INTRODUCTION
 LibroLink is a comprehensive open library website designed to revolutionize the way individuals access, explore, and engage with a vast array of literary resources. With a focus on promoting literacy, knowledge sharing, and community interaction, LibroLink aims to serve as a hub for book lovers, students, educators, and researchers alike. By harnessing the power of technology and collaboration, LibroLink seeks to democratize access to information and foster a love for reading and lifelong learning.
 
@@ -12,7 +11,7 @@ LibroLink is a comprehensive open library website designed to revolutionize the 
 * Advanced search functionality allows users to discover books based on title, author, genre, and keywords.
 * Dynamic book recommendations tailored to users' interests and reading preferences.
 * Integration with external APIs for accessing additional book-related content, such as author biographies, book summaries, and literary analysis.
-  
+
 ## TECHNOLOGIES USED
 * HTML
 * CSS
